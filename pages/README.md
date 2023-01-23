@@ -1,6 +1,6 @@
 # About
 
-The Non-Human Primate NOP Agonist (NHP-NOP) dataset contains EEG and EMG recordings conducted in in non-human primates, specifically, 5 adult male Cynomolgus macaques. This dataset was provided by the Sleep Neurobiology Laboratory at SRI International in order to facilitate research on the N/OFQ- NOP receptor system. The data include the EEG spectral activity (0.3-100 Hz) and EMG signals collected during an experiment whose aim was to assess the effects of NOP agonists on sleep and wakefulness in rodents and non-human primates. The cohort of macaques were treated subcutaneously with either vehicle (HPMC:1.25% hydroxypropylmethyl cellulose, 0.1% dioctyl sodium sulfosuccinate, and 0.25% methylcellulose in purified water) or the NOP agonist Ro64-6198 (0.1 mg/kg) in a counterbalanced design, approximately 30 min before lights off at ZT12. A minimum of 3 days elapsed between treatments.
+To facilitate research on the N/OFQ- NOP receptor system, the Sleep Neurobiology Laboratory at SRI International releases the NOP-NHP dataset. This dataset contains EEG and EMG recordings conducted in in non-human primates, specifically, male Cynomolgus macaques. The data were collected during an experiment whose aim was to assess the effects of NOP agonists on sleep and wakefulness in rodents and non-human primates. The data include the EEG spectral activity (0.3-100 Hz) and EMG signals collected during this study. The cohort of adult male Cynomolgus macaques (n = 5) were treated subcutaneously either with vehicle (HPMC:1.25% hydroxypropylmethyl cellulose, 0.1% dioctyl sodium sulfosuccinate, and 0.25% methylcellulose in purified water) or the NOP agonist Ro64-6198 (0.1 mg/kg) in a counterbalanced design, approximately 30 min before lights off at ZT12. A minimum of 3 days elapsed between treatments.
 
 ## Methods: PSG Scoring
 
@@ -20,17 +20,16 @@ Continuous acquisition of the EEG and EMG telemetry signals occurred at a sampli
 
 ## Data overview
 
-**[/edf](:files_path:/edf)** EDF files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore) which includes 3 EEG channels, 1 EMG channel, body temperature (Tb) and locomotor activity (LMA). Data were recorded at a sampling rate of 500 Hz with [Ponemah software (version 5.20; DSI)](https://www.datasci.com/products/software/ponemah), although the DSI D70-EEE wireless transmitters only permit EEG power analysis in the 0.3-100 Hz range.
+**[/EDF](:files_path:/EDF)** 
+EDF files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore) which includes 3 EEG channels, 1 EMG channel, body temperature (Tb) and locomotor activity (LMA). Data were recorded at a sampling rate of 500 Hz with [Ponemah software (version 5.20; DSI)](https://www.datasci.com/products/software/ponemah), although the DSI D70-EEE wireless transmitters only permit EEG power analysis in the 0.3-100 Hz range.
 
-**[/fft](:files_path:/edf)** FFT files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore). Unlike the EDF folder, the FFT folder contains three folders (one per channel). These files contain an epoched (10-second epochs) representation of the data including:
-- sleep stages (manually scored) 
-- power spectral density data as determined by fast Fourier transform across 820 bins between 0 and 100 Hz.
+**[/FFT](:files_path:/FFT)** 
+FFT files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore). These files contain an epoched (10-second epochs) representation of the data including: 1. sleep stage (manually scored) and 2. power spectral density data as determined by fast Fourier transform across 820 bins between 0 and 100 Hz. Unlike the EDF folder, the FFT folder contains three folders (one per channel).
 
  **File names**
 EDFs and FFTs are both named with the following convention: NHP_[animal ID]\_Dosing\_[dose date: mmddyyyy]_[treatment]
 
 Example: NHP\_1241201\_Dosing\_11252019\_Vehicle.edf
-
 
 ## Access Restrictions
 
