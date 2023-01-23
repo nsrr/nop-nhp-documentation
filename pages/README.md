@@ -20,18 +20,15 @@ Continuous acquisition of the EEG and EMG telemetry signals occurred at a sampli
 
 ## Data overview
 
-**[/edf](:files_path:/edf)**
+**[/edf](:files_path:/edf)** EDF files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore) which includes 3 EEG channels, 1 EMG channel, body temperature (Tb) and locomotor activity (LMA). Data were recorded at a sampling rate of 500 Hz with [Ponemah software (version 5.20; DSI)](https://www.datasci.com/products/software/ponemah), although the DSI D70-EEE wireless transmitters only permit EEG power analysis in the 0.3-100 Hz range.
 
-EDF files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore) which includes 3 EEG channels, 1 EMG channel, body temperature (Tb) and locomotor activity (LMA). Data were recorded at a sampling rate of 500 Hz with [Ponemah software (version 5.20; DSI)](https://www.datasci.com/products/software/ponemah), although the DSI D70-EEE wireless transmitters only permit EEG power analysis in the 0.3-100 Hz range.
-
-**[/fft](:files_path:/edf)**
-
-FFT files exported by [NeuroscoreTM CNS Software](https://www.datasci.com/products/software/neuroscore). Unlike the EDF folder, the FFT folder contains three folders (one per channel). These files contain an epoched (10-second epochs) representation of the data including:
+**[/fft](:files_path:/edf)** FFT files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore). Unlike the EDF folder, the FFT folder contains three folders (one per channel). These files contain an epoched (10-second epochs) representation of the data including:
 - sleep stages (manually scored) 
 - power spectral density data as determined by fast Fourier transform across 820 bins between 0 and 100 Hz.
 
- **File names** <br>
-EDFs and FFTs are both named with the following convention: NHP_[animal ID]\_Dosing\_[dose date: mmddyyyy]_[treatment]<br>
+ **File names**
+EDFs and FFTs are both named with the following convention: NHP_[animal ID]\_Dosing\_[dose date: mmddyyyy]_[treatment]
+
 Example: NHP\_1241201\_Dosing\_11252019\_Vehicle.edf
 
 
