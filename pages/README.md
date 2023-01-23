@@ -21,9 +21,11 @@ Continuous acquisition of the EEG and EMG telemetry signals occurred at a sampli
 ## Data overview
 
 **[/EDF](:files_path:/EDF)** 
+
 EDF files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore) which includes 3 EEG channels, 1 EMG channel, body temperature (Tb) and locomotor activity (LMA). Data were recorded at a sampling rate of 500 Hz with [Ponemah software (version 5.20; DSI)](https://www.datasci.com/products/software/ponemah), although the DSI D70-EEE wireless transmitters only permit EEG power analysis in the 0.3-100 Hz range.
 
 **[/FFT](:files_path:/FFT)** 
+
 FFT files exported by [Neuroscore<sup>TM</sup> CNS Software](https://www.datasci.com/products/software/neuroscore). These files contain an epoched (10-second epochs) representation of the data including: 1. sleep stage (manually scored) and 2. power spectral density data as determined by fast Fourier transform across 820 bins between 0 and 100 Hz. Unlike the EDF folder, the FFT folder contains three folders (one per channel).
 
  **File names**
