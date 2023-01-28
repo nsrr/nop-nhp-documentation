@@ -1,6 +1,6 @@
 # About
 
-To facilitate research on the N/OFQ- NOP receptor system, the Sleep Neurobiology Laboratory at SRI International releases the NOP-NHP dataset. This dataset contains EEG and EMG recordings conducted in in non-human primates, specifically, male Cynomolgus macaques. The data were collected during an experiment whose aim was to assess the effects of NOP agonists on sleep and wakefulness in rodents and non-human primates. The data include the EEG spectral activity (0.3-100 Hz) and EMG signals collected during this study. The cohort of adult male Cynomolgus macaques (n = 5; 14-19 years, 7-10 kg) were treated subcutaneously either with vehicle (HPMC:1.25% hydroxypropylmethyl cellulose, 0.1% dioctyl sodium sulfosuccinate, and 0.25% methylcellulose in purified water) or the NOP agonist Ro64-6198 (0.1 mg/kg) in a counterbalanced design, approximately 30 min before lights off at ZT12. A minimum of 3 days elapsed between treatments.
+To facilitate research on the N/OFQ- NOP receptor system, the Sleep Neurobiology Laboratory at SRI International releases the NOP-NHP dataset. This dataset contains EEG and EMG recordings conducted in non-human primates, specifically, male Cynomolgus macaques. The data were collected during an experiment whose aim was to assess the effects of NOP agonism on sleep and wakefulness in rodents and non-human primates. The data include the EEG spectral activity (0.3-100 Hz) and EMG signals collected during this study. The cohort of adult male Cynomolgus macaques (n = 5; 14-19 years, 7-10 kg) was treated subcutaneously either with vehicle (HPMC:1.25% hydroxypropylmethyl cellulose, 0.1% dioctyl sodium sulfosuccinate, and 0.25% methylcellulose in purified water) or the NOP agonist Ro64-6198 (0.1 mg/kg) in a counterbalanced design, approximately 30 min before lights off at ZT12. A minimum of 3 days elapsed between treatments.
 
 ## Methods: PSG Scoring
 
@@ -39,7 +39,7 @@ When using this dataset, users must cite the following:
 
 > [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 >
-> <i>Manuscript not yet published (Submitted Jan 25th 2023)</i>
+> **<To be added from citation in PubMed upon publication of manuscript>**
 
 Users must include the following text in any Acknowledgements:
 
@@ -48,6 +48,12 @@ Users must include the following text in any Acknowledgements:
 
 ## Other Relevant Publications
 
->[Goonawardena AV, Morairty SR, Orellana GA, Willoughby AR, Wallace TL, Kilduff TS. Electrophysiological characterization of sleep/wake, activity and the response to caffeine in adult cynomolgus macaques. Neurobiol Sleep Circadian Rhythms. 2018 Aug 22;6:9-23. doi: 10.1016/j.nbscr.2018.08.001. PMID: 31236518; PMCID: PMC6586594.](https://pubmed.ncbi.nlm.nih.gov/31236518/)
+> [Goonawardena AV, Morairty SR, Orellana GA, Willoughby AR, Wallace TL, Kilduff TS. Electrophysiological characterization of sleep/wake, activity and the response to caffeine in adult cynomolgus macaques. Neurobiol Sleep Circadian Rhythms. 2018 Aug 22;6:9-23. doi: 10.1016/j.nbscr.2018.08.001. PMID: 31236518; PMCID: PMC6586594.](https://pubmed.ncbi.nlm.nih.gov/31236518/)
 
->[Goonawardena AV, Morairty SR, Dell R, Orellana GA, Hoener MC, Wallace TL, Kilduff TS. Trace amine-associated receptor 1 agonism promotes wakefulness without impairment of cognition in Cynomolgus macaques. Neuropsychopharmacology. 2019 Jul;44(8):1485-1493. doi: 10.1038/s41386-019-0386-8. Epub 2019 Apr 6. PMID: 30954024; PMCID: PMC6784974.](https://pubmed.ncbi.nlm.nih.gov/30954024/)
+> [Goonawardena AV, Morairty SR, Dell R, Orellana GA, Hoener MC, Wallace TL, Kilduff TS. Trace amine-associated receptor 1 agonism promotes wakefulness without impairment of cognition in Cynomolgus macaques. Neuropsychopharmacology. 2019 Jul;44(8):1485-1493. doi: 10.1038/s41386-019-0386-8. Epub 2019 Apr 6. PMID: 30954024; PMCID: PMC6784974.](https://pubmed.ncbi.nlm.nih.gov/30954024/)
+
+## Changelog
+
+*January 2023*
+
+- Make NOP-NHP dataset available for data requests
