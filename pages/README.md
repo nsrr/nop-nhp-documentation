@@ -39,7 +39,7 @@ When using this dataset, users must cite the following:
 
 > [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 >
-> **To be added from citation in PubMed upon publication of manuscript**
+> [Morairty SR, Sun Y, Toll L, Bruchas MR, Thomas S. Kilduff. Activation of the nociceptin/orphanin-FQ receptor promotes NREM sleep and EEG slow wave activity. Proc Natl Acad Sci. 2023 Mar 22,120:e2214171120. doi: 10.1073/pnas.2214171120.](https://www.pnas.org/doi/10.1073/pnas.2214171120)
 
 Users must include the following text in any Acknowledgements:
 
